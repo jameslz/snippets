@@ -36,8 +36,13 @@ tsv-utils  agg  fastrand:otutab_fastrand.txt  usearch:otutab_usearch.txt  >otuta
 
 ### 3. Cumulative sum scaling (css) normalization
 
+`DO NOT USE IT`
+
 [Differential abundance analysis for microbial marker-gene surveys]: https://www.nature.com/articles/nmeth.2658
 [metagenomeSeq]: https://github.com/HCBravoLab/metagenomeSeq
+
+normalization constant： 1000
+lth quantile： 0.5
 
 ** compile **
 

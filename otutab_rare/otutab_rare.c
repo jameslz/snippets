@@ -108,7 +108,7 @@ int main(int argc, char *argv[]){
     uint32_t *rare = (uint32_t *)malloc(size * sizeof(uint32_t));
     for (i = 0; i < size; ++i) rare[i] = 0;
    
-    for (i = 0; i < num; ++i) ++rare[kv_A(val, buf[i])];
+    for (i = 0; i < num; ++i) ++rare[kv_A(val, buf[i] - 1 )];
     
     puts(title.s);
     for (i = 0; i < size; ++i){
